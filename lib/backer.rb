@@ -9,7 +9,7 @@ end
 
 def back_project(awesome_project)
 @backed_projects << awesome_project
-project.backers << self unless project.backers.include?(self)
+project.backers << self unless awesome_project.backers.include?(self)
 end
 
 end
