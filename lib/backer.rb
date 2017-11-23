@@ -7,7 +7,7 @@ def initialize(name)
 end
 @@backed_projects = []
 def back_project(awesome_project)
-backed_projects << awesome_project
+@@backed_projects << awesome_project
 end
 
 end
