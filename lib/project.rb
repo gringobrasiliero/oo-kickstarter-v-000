@@ -6,8 +6,8 @@ def initialize(title)
   @add_backer = []
 end
 
-def add_backer
-
+def add_backer(awesome_backer)
+@add_backer << awesome_backer
 end
 
 
