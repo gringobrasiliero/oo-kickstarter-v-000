@@ -5,9 +5,9 @@ def initialize(name)
   @name=name
 
 end
-
-def back_project
-
+backed_projects = []
+def back_project(awesome_project)
+backed_projects << awesome_project
 end
 
 end
